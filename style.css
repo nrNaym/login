@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.container{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("bg.jpg"); */
+    background-color: skyblue;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+.box{
+    background-color: skyblue;
+    border-radius: 15px;
+    height: 300px;
+    padding: 50px;
+    line-height: 50px;
+    color: rgb(232, 232, 232);
+
+
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+    15px 15px 15px rgba(0,0,0,0.1),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+
+    text-shadow: 3px 3px 5px black;
+}
+.sub{
+    padding: 5px;
+    display: block;
+    position: relative;
+    left: 65px;
+    top: 50px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(21, 61, 77, 0.5);
+    color: white;
+
+
+    cursor: pointer;
+
+
+    
+}
+.login{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(232, 232, 232);
+
+}
+.pass{
+    border-radius: 5px;
+    border-style: none;
+}
+.name{
+    border-radius: 5px;
+    border-style: none;
+}
+input{
+    text-align: center;
+
+
+
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    box-shadow: -15px -15px 15px rgba(255, 255, 255, 0.2),
+    15px 15px 15px rgba(0,0,0,0.1),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.2),
+    inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
